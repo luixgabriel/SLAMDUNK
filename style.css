@@ -33,7 +33,7 @@
 
 .shohoku-players{
     display: flex;
-    border: 1px solid green;
+    
 }
 
 .shohoku-players img{
@@ -58,7 +58,7 @@
     align-items: center;
     padding: 5px;
     border-radius: 5px;
-    border: 5px solid #fff;
+   
 }
 
 .description-show{
@@ -73,15 +73,39 @@
     align-items: center;
     padding: 5px;
     border-radius: 5px;
+    border: 5px solid #fff;
+}
+
+.description-rukawa{
+    min-width: 350px;
+    min-height: 370px;
+    background-color: rgba(201, 236, 236, 0.356);
+    font-family: varsity;
+    position: absolute;
+    bottom: 42%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    border: 5px solid #fff;
 }
 
 
 .description img {
    width: 200px;
+   height: 320px;
+   border-radius: 5px;
+}
+
+.description-rukawa img{
+   width: 200px;
+   height: 320px;
    border-radius: 5px;
 }
 
 .description-show img {
     width: 200px;
+    height: 320px;
     border-radius: 5px;
  }
