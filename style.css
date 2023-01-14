@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.slam-dunk{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-image: url('/imgs/slamdunkcapa_clipdrop-enhance.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.players {
+    background-color: rgba(201, 236, 236, 0.356);
+    width: 100vw;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+    
+}
+
+.shohoku-players{
+    display: flex;
+    
+    
+}
+
+.shohoku-players img{
+    border: 5px solid #fff;
+       width: 250px;
+       height: 250px;
+       border-radius: 50%;
+       
+}
