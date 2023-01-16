@@ -22,7 +22,7 @@
 .players {
     background-color: rgba(201, 236, 236, 0.356);
     width: 100vw;
-    height: 40%;
+    height: 35%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,7 +52,7 @@
     background-color: rgba(201, 236, 236, 0.356);
     font-family: varsity;
     position: absolute;
-    bottom: 42%;
+    bottom: 38%;
     display: none;
     flex-direction: column;
     align-items: center;
@@ -67,13 +67,14 @@
     background-color: rgba(201, 236, 236, 0.356);
     font-family: varsity;
     position: absolute;
-    bottom: 42%;
+    bottom: 38%;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 5px;
     border-radius: 5px;
     border: 5px solid #fff;
+    margin-top: 50px;
 }
 
 .description-rukawa{
@@ -82,13 +83,58 @@
     background-color: rgba(201, 236, 236, 0.356);
     font-family: varsity;
     position: absolute;
-    bottom: 42%;
+    bottom: 38%;
     display: none;
     flex-direction: column;
     align-items: center;
     padding: 5px;
     border-radius: 5px;
-    border: 5px solid #fff;
+    border: 5px solid rgb(247, 8, 8);
+}
+
+.description-akagi{
+    min-width: 350px;
+    min-height: 370px;
+    background-color: rgba(201, 236, 236, 0.356);
+    font-family: varsity;
+    position: absolute;
+    bottom: 38%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    border: 5px solid rgb(255, 255, 255);
+}
+
+.description-ryota{
+    min-width: 350px;
+    min-height: 370px;
+    background-color: rgba(201, 236, 236, 0.356);
+    font-family: varsity;
+    position: absolute;
+    bottom: 38%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    border: 5px solid rgb(247, 8, 8);
+}
+
+.description-mitsui{
+    min-width: 350px;
+    min-height: 370px;
+    background-color: rgba(201, 236, 236, 0.356);
+    font-family: varsity;
+    position: absolute;
+    bottom: 38%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    border: 5px solid rgb(247, 8, 8);
 }
 
 
@@ -103,6 +149,25 @@
    height: 320px;
    border-radius: 5px;
 }
+
+.description-akagi img{
+    width: 200px;
+    height: 320px;
+    border-radius: 5px;
+ }
+
+ .description-ryota img{
+    width: 200px;
+    height: 320px;
+    border-radius: 5px;
+ }
+
+ .description-mitsui img{
+    width: 200px;
+    height: 320px;
+    border-radius: 5px;
+ }
+
 
 .description-show img {
     width: 200px;
