@@ -12,17 +12,13 @@
 
 ## ⚙️ Tecnlogias
 - HTML
-- SCSS
+- CSS
 - JAVASCRIPT
-- SWIPER JS
+
 
 <br>
 
 <br>
-
-## 🚀 Créditos
-- <a href="https://codeboost.com.br/">CodeBoost </a>
-- <a href="https://www.instagram.com/wiimoreira/">wiimoreira</a>
 
 <br><br>
 
